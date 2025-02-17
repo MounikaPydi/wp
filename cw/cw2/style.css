@@ -1,0 +1,30 @@
+header {
+    text-align: center;
+}
+main {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+}
+.left-col {
+    flex-basis: 33%;
+}
+.right-col {
+    flex-basis: 67%;
+}
+img {
+    float: right;
+    width: 200px;
+}
+.clear {
+    clear: both;
+}
+.cols {
+    padding: 2em;
+    margin: 2em;
+    border: 4px dashed red;
+}
+.last {
+    position: fixed;
+    bottom: 5px;
+}
