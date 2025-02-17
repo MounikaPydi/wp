@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            text-align: center;
+        }
+        img {
+            position: relative;
+            width: 300px;
+            border: 5px solid black;
+            padding: 10px;
+            margin: 20px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        .words {
+            font-family: impact;
+            font-size: 60px;
+            position: absolute;
+        }
+        .first-line {
+            top: 110px;
+            position: absolute;
+            left: 52%;
+            transform: translateX(-50%);
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .heart {
+            color: red;
+            font-size: 80px;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .last {
+            position: absolute;
+            top: 190px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+        }
+        .container {
+            position: relative;
+            display: inline-block;
+            background-color: #f0f0f0;
+            padding: 40px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div><a href="../index.html">Go to In class activity List</a><br/><br/></div>
+    <div class="container">
+        <div class="first-line">
+            <span class="words">I</span>
+            <span class="heart">&hearts;</span>
+        </div>
+        <span class="last words">NY</span>
+        <img src="shirt.png" alt="White t-shirt">
+    </div>
+</body>
+</html>

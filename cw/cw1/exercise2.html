@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html">Back to CW1</a> <br/><br/>
+    <h1>Exercise 2 - Fixing a Deliberate Mistake</h1>
+    <!-- <div class="fix-mistake">
+        <p> The mistake in the provided code is: The `text-align: justify;` rule should be applied to paragraphs (`p`) instead of `body`.</p>
+    </div> -->
+    <div class="fix-mistake">
+        The mistake in the original CSS code was the use of <span class="highlight">`text-indent: 2cm;`</span> for the paragraph.  <span class="highlight">`cm`</span> stands for centimeters, which is a very large unit of measurement for text indentation.  This would result in an excessively large indent.  A more appropriate unit for text indentation is <span class="highlight">`em`</span>, which is relative to the font size. The code has been corrected to use <span class="highlight">`text-indent: 2em;`</span> for a more typical and visually appealing indent.
+    </div>
+</body>
+</html>
+<!-- 
+<!DOCTYPE html>
+<html>
+<head>
+<title>University of Georgia Example on Embedded Style Sheets</title>
+<style>
+body {
+    font-family: "Times New Roman", serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    background: ivory;
+    color: red;
+}
+p {
+    text-indent: 2em; /* Corrected indent */
+}
+h1, h2, h3 {
+    margin-left: 2cm;
+}
+
+#mistake-explanation {
+    background-color: #f0f8ea; /* Light green/mint */
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px solid #c0c0c0; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center the text */
+    font-family: Arial, sans-serif; /* Use a different font */
+    color: #333; /* Darker text color */
+}
+
+.highlight {
+    font-weight: bold;
+    color: blue;
+}
+</style>
+</head>
+<body>
+<h1>Example Heading</h1>
+<p>This is a paragraph with embedded styles.</p>
+
+<div id="mistake-explanation">
+    The mistake in the original CSS code was the use of <span class="highlight">`text-indent: 2cm;`</span> for the paragraph.  <span class="highlight">`cm`</span> stands for centimeters, which is a very large unit of measurement for text indentation.  This would result in an excessively large indent.  A more appropriate unit for text indentation is <span class="highlight">`em`</span>, which is relative to the font size. The code has been corrected to use <span class="highlight">`text-indent: 2em;`</span> for a more typical and visually appealing indent.
+</div>
+
+</body>
+</html> -->

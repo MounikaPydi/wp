@@ -1,0 +1,157 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sky {
+    background: url('night-city-party.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.cloud {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    box-shadow: -20px 20px 50px rgba(0, 0, 0, 0.5),
+                -40px 30px 60px rgba(0, 0, 0, 0.4),
+                -10px 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.cloud {
+    width: 150px;
+    height: 80px;
+}
+
+.cloud1 {
+    top: 50px;
+    left: -200px;
+    animation: moveClouds 30s linear infinite;
+    filter: blur(2px);
+}
+
+.cloud2 {
+    width: 180px;
+    height: 90px;
+    top: 100px;
+    left: -300px;
+    animation: moveClouds 35s linear infinite;
+    filter: blur(2px);
+}
+
+.cloud3 {
+    width: 220px;
+    height: 100px;
+    top: 150px;
+    left: -250px;
+    animation: moveClouds 40s linear infinite;
+    filter: blur(2px);
+}
+
+.cloud4 {
+    width: 160px;
+    height: 80px;
+    top: 200px;
+    left: -350px;
+    animation: moveClouds 25s linear infinite;
+    filter: blur(2px);
+}
+
+@keyframes moveClouds {
+    0% {
+        left: -200px;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+.highway {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+
+
+.airplane-gif {
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    top: 20px;
+    left: -120px;
+    animation: moveAirplane 10s linear infinite;
+    z-index: 15;
+}
+
+@keyframes moveAirplane {
+    0% {
+        left: -120px;
+        top: 20px;
+    }
+    50% {
+        left: calc(100% - 100px);
+        top: 100px;
+    }
+    100% {
+        left: 100%;
+        top: 20px;
+    }
+}
+
+.car-gif {
+    position: absolute;
+    width: 120px; /* Increased size */
+    height: auto;
+    bottom: 30px;
+    animation: moveCar 5s linear infinite;
+}
+
+.car1 {
+    left: -100px;
+    animation-delay: 0s;
+}
+
+.car2 {
+    left: -120px;
+    animation-delay: 1s;
+}
+
+.car3 {
+    left: -140px;
+    animation-delay: 2s;
+}
+
+@keyframes moveCar {
+    0% {
+        left: -100px;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+.party-gif {
+    position: absolute;
+    left: 90%;
+    top: 73%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: auto;
+    z-index: 10;
+}
+
+.road-lines-repeat {
+    background: url('roadlines.jpg') repeat;
+    height: 100vh;
+}
+
+
