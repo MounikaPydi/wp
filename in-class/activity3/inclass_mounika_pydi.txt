@@ -1,0 +1,5 @@
+Links to codd server for this inclass work
+
+https://codd.cs.gsu.edu/~mpydi1/wp/in-class/activity3/voting.php
+https://codd.cs.gsu.edu/~mpydi1/wp/in-class/activity3/rectangle.php
+https://codd.cs.gsu.edu/~mpydi1/wp/in-class/activity3/charlie.php
